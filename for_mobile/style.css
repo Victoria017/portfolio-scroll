@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html {
+  height: 100%;
+}
+body {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0px 26px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+}
+.name-portfolio {
+  height: 190px;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.name {
+  font-family: "Gilroy-Bold";
+  font-size: 47px;
+  line-height: 58px;
+  color: #070707;
+  width: 124px;
+  margin-top: 65px;
+}
+.years {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  width: 156px;
+}
+.langvige {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+  width: 68px;
+}
+.photo-bg {
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+.photo-autour {
+  background-image: url(../for_mobile/images/photo.png);
+  width: 100%;
+  height: 478px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 65px;
+}
+.about-autour {
+  background: #f6f6f6;
+  width: 100%;
+  height: 506px;
+  padding-top: 120px;
+}
+.about-me {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.about-me-text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin-bottom: 70px;
+}
+p {
+  width: 100%;
+  height: 70px;
+}
+.work-programs {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.programs-img {
+  width: 88px;
+  height: 88px;
+  background-repeat: no-repeat;
+}
+.programs-img-figma {
+  width: 58px;
+  height: 88px;
+  background-repeat: no-repeat;
+}
+.programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name-programs {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-top: 24px;
+}
+.skills {
+  margin-bottom: 42px;
+}
+.list-programs {
+  text-align: center;
+}
+.rating {
+  display: inline-block;
+  font-size: 0;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.rating span {
+  padding: 0;
+  font-size: 26px;
+  line-height: 1;
+  color: #e5e5e5;
+  border-radius: 1px;
+}
+.rating > span:before {
+  content: "★";
+}
+.rating > span.active {
+  color: #070707;
+  border-radius: 1px;
+}
+.bg-portfolio {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 80px 0px 40px;
+}
+.content-portfolio {
+  width: 100%;
+  margin: auto;
+}
+.portfolio-collection {
+  background-image: url(../for_mobile/images/collection.png);
+  background-repeat: no-repeat;
+  width: 316px;
+  height: 171px;
+  margin: auto;
+}
+.collection {
+  padding-bottom: 47px;
+}
+.online-shop {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #070707;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 78px;
+}
+.reebok {
+  background-image: url(../for_mobile/images/reebok_web.png);
+  background-repeat: no-repeat;
+  width: 316px;
+  height: 171px;
+  margin: auto;
+}
+.braun {
+  background-image: url(../for_mobile/images/braun.png);
+  background-repeat: no-repeat;
+  width: 316px;
+  height: 171px;
+  margin: auto;
+}
+.portfolio-contacts {
+  margin: auto;
+}
+.contacts {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-top: 82px;
+  margin-bottom: 27px;
+}
+.contacts-text {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #090909;
+}
+.button-message {
+  background-color: black;
+  width: 316px;
+  height: 42px;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.button-contacts {
+  text-align: center;
+  margin-top: 27px;
+}
+.social-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 48px 0px;
+  margin: auto;
+}
+.in-contact {
+  background-image: url(../for_mobile/images/in.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.insta-contact {
+  background-image: url(../for_mobile/images/insta.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.be-contact {
+  background-image: url(../for_mobile/images/be.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.ball-contact {
+  background-image: url(../for_mobile/images/ball.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.footer-text {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  height: 143px;
+}
+.modal-window {
+  width: 33px;
+  height: 19px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.modal-menu {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #828282;
+  text-decoration: none;
+  padding-top: 42px;
+
+}
+.header a:hover {
+  color: #070707;
+}
+.header-menu {
+  float: right;
+  margin-top: 65px;
+}
+.Window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+
+.Window:target {
+  display: block;
+  pointer-events: auto;
+}
+
+.Window > div {
+  width: 360px;
+  height: 800px;
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: #f2f2f2;
+  box-shadow: 0px 0px 20px 2px;
+}
+
+.close {
+  background: #cc3300;
+  color: #ffffff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+  background: #990000;
+}
